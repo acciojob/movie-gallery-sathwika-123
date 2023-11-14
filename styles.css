@@ -1,2 +1,28 @@
+/* styles.css - Your Custom CSS Code here */
 
-/* Your CSS Code here. */
+body {
+    background-color: #f8f9fa; /* Set your desired background color */
+}
+
+.container-fluid {
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.row {
+    margin-bottom: 20px; /* Add margin between rows for spacing */
+}
+
+.img-fluid {
+    border-radius: 5px; /* Optional: Add border-radius to images for a rounded look */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow to images */
+}
+
+/* Optional: Add styles for better responsiveness on smaller screens */
+@media (max-width: 767px) {
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-4,
+    .col-sm-12 {
+        width: 100%; /* Make all columns full-width on small screens */
+    }
+}
